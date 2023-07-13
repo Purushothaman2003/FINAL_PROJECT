@@ -1,0 +1,56 @@
+/* -----------------------------sidebar  */
+.sidebar {
+    margin-top:6.5rem;
+    margin-left: 1rem;
+    height: 80.6%;
+    width: 23%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 80;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: #a5a1a1;
+    border: 3px solid rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 20px 400px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #f5eeee;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #457970;
+  }
+  /* ------------------------ image sliders*/
+  .sliderss
+  {
+     margin-top:-0.5rem;
+     margin-left: 25.7rem;
+  }
+  /* ------------------------------- navigation*/
+  .topnav {
+    overflow: hidden;
+    color:black;  
+  }
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    
+    background-color: #3d7c65;
+    color: #fff;
+    border-radius: 30px;
+  }
+  /* -------------------------------- */

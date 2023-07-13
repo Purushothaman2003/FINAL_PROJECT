@@ -1,0 +1,36 @@
+/* -----------------------------sidebar  */
+.sidebar {
+    margin-top:6.5rem;
+    margin-left: 1rem;
+    height: 80.6%;
+    width: 23%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 80;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: #a5a1a1;
+    border: 3px solid rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 20px 400px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #f5eeee;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #457970;
+  }
+  /* ------------------------ image sliders*/
+  .sliderss
+  {
+     margin-top:-0.7rem;
+     margin-left: 22rem;
+  }

@@ -1,0 +1,40 @@
+
+.topnav {
+    overflow: hidden;
+    color:black; 
+    margin:0; 
+  }
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    
+    background-color: #3d7c65;
+    color: #fff;
+    border-radius: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .topnav {
+      flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+    }
+  
+    .topnav a {
+      padding: 14px 8px; /* Reduce padding on smaller screens */
+      font-size: 14px; /* Reduce font size on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .topnav a {
+      padding: 10px 8px; /* Further reduce padding on smaller screens */
+      font-size: 12px; /* Further reduce font size on smaller screens */
+    }
+  }
+
+  

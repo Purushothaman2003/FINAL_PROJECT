@@ -1,0 +1,132 @@
+/* .help_head
+{
+    margin-left: 4rem;
+    box-sizing: content-box;  
+    width: 900px;
+    height: 800px;
+    padding: 30px;  
+    border: 1px solid grey;
+
+}
+.ytp-cued-thumbnail-overlay-image
+{
+    margin-left: 4rem;
+}
+
+
+
+a
+  {
+    text-decoration: none;
+    color:black;
+
+  }
+  a:hover{
+    text-decoration: none;
+    color:blue
+  }
+  .whole_vid{
+    display:flex;
+    flex-direction: row;
+    color:aliceblue;
+  }
+.whole_vid > div
+ {
+
+    text-align: center;
+}
+.vid2 ,.vid3
+{
+    margin-left: 3rem;
+}
+h2{
+  font-size: 25px;
+}
+h3
+{
+  font-size: 20px;
+
+} */
+
+/* Responsive styles for .help_head */
+.help_head {
+  margin: 1rem;
+  box-sizing: content-box;
+  width: 70%;
+  max-width: 900px;
+  height: auto;
+  padding: 30px;
+  border: 1px solid grey;
+}
+h2{
+  margin: 1rem;
+
+}
+/* Responsive styles for .ytp-cued-thumbnail-overlay-image */
+.ytp-cued-thumbnail-overlay-image {
+  margin-left: 2rem; /* Adjust margin for better spacing on smaller screens */
+}
+
+/* Responsive styles for links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Responsive styles for video containers */
+.whole_vid {
+  display: flex;
+  flex-wrap: wrap; /* Allow videos to wrap on smaller screens */
+  justify-content: space-between; /* Distribute videos evenly */
+  color: aliceblue;
+}
+
+.whole_vid > div {
+  text-align: center;
+  width: 90%; /* Adjust width to take full width on smaller screens */
+}
+
+/* Responsive font sizes */
+h2 {
+  font-size: 20px; /* Reduce font size on smaller screens */
+}
+
+h3 {
+  font-size: 18px; /* Reduce font size on smaller screens */
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .help_head {
+    margin: 4rem;
+  }
+
+  .whole_vid > div {
+    width: calc(50% - 2rem); /* Adjust width to 50% on medium-sized screens */
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .help_head {
+    margin: 6rem;
+  }
+
+  .whole_vid > div {
+    width: calc(33.33% - 2rem); /* Adjust width to 33.33% on larger screens */
+    margin: 1rem;
+  }
+
+  h2 {
+    font-size: 25px; /* Increase font size on larger screens */
+  }
+
+  h3 {
+    font-size: 20px; /* Keep font size the same on larger screens */
+  }
+}

@@ -1,0 +1,167 @@
+/* 
+
+.sidebar {
+  margin-top: 8.2rem;
+  margin-left: 1rem;
+  height: 81.5%;
+  width: 21%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 80;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  background-color: #a5a1a1;
+  border: 3px solid rgb(0, 0, 0);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.img
+{
+  height: 200px;
+  width:300px;
+}
+.sidebar a {
+  padding: 6px 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5eeee;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #457970;
+}
+
+.sliderss {
+  margin-top: 2rem;
+  margin-left: 1rem;
+
+}
+
+.feedback {
+  margin-top: 2rem; 
+  margin-left: 1rem;
+  background: #9cdede;
+  height: 400px;
+}
+
+.sub_head {
+  margin-left: 2rem;
+}
+
+.sub_head > img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.a {
+  color: rgb(17, 214, 248);
+}
+
+
+@media (max-width: 1024px) {
+  .sidebar {
+      width: 25%; 
+      font-size: 14px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+      display: none; 
+  }
+} */
+
+
+.sidebar {
+  margin-top: 8.2rem;
+  margin-left: 1rem;
+  height: 81.5%;
+  width: 21%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 80;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  background-color: #a5a1a1;
+  border: 3px solid rgb(0, 0, 0);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Adjust the image width for better responsiveness */
+.img {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.sidebar a {
+  padding: 6px 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5eeee;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #457970;
+}
+
+.sliderss {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.feedback {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background: #9cdede;
+  height: 400px;
+}
+
+.sub_head {
+  margin-left: 2rem;
+}
+
+.sub_head > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.a {
+  color: rgb(17, 214, 248);
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 25%;
+    font-size: 14px;
+  }
+
+  /* Adjust image width on smaller screens */
+  .img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide the sidebar on smaller screens */
+  }
+
+  /* Adjust image width on smaller screens */
+  .img {
+    max-width: 150px;
+  }
+}
+
